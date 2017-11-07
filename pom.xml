@@ -15,6 +15,17 @@
     <packaging>war</packaging>
     <name>Jhipster Sample Application</name>
 
+    <distributionManagement>
+        <repository>
+            <id>maven-releases</id>
+            <name>Maven Releases</name>
+        </repository>
+        <snapshotRepository>
+            <id>maven-snapshots</id>
+            <name>Maven Snapshots</name>
+        </snapshotRepository>
+    </distributionManagement>
+
     <properties>
         <argLine>-Djava.security.egd=file:/dev/./urandom -Xmx256m</argLine>
         <assertj.version>3.6.2</assertj.version>
