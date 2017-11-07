@@ -18,11 +18,9 @@
     <distributionManagement>
         <repository>
             <id>maven-releases</id>
-            <name>Maven Releases</name>
         </repository>
         <snapshotRepository>
             <id>maven-snapshots</id>
-            <name>Maven Snapshots</name>
         </snapshotRepository>
     </distributionManagement>
 
